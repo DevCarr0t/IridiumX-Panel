@@ -6,13 +6,14 @@
 
 ### YOUR SERVER. YOUR WORKSPACE. YOUR CONTROL.
 
-An **OP-only**, purple-powered moderation workspace for **Minecraft Java Edition**.
+An **unofficial**, **OP-only** moderation workspace for **Minecraft Java Edition**.
 
 ![Mod version](https://img.shields.io/badge/MOD-v1.3.1-A970FF?style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/MINECRAFT-1.21.11%20%E2%86%92%2026.2-7C3AED?style=for-the-badge)
 ![Fabric](https://img.shields.io/badge/LOADER-FABRIC-DBB9FF?style=for-the-badge)
 ![Client side](https://img.shields.io/badge/ENVIRONMENT-CLIENT_SIDE-272033?style=for-the-badge)
 ![OP required](https://img.shields.io/badge/ACCESS-OP_ONLY-C084FC?style=for-the-badge)
+![Unofficial](https://img.shields.io/badge/STATUS-UNOFFICIAL-998BAD?style=for-the-badge)
 
 [**Explore Features**](#-built-for-the-way-you-moderate) · [**Installation**](#-get-started) · [**Supported Versions**](#-supported-versions) · [**Join Discord**](https://discord.gg/avYXudUaG)
 
@@ -24,11 +25,13 @@ An **OP-only**, purple-powered moderation workspace for **Minecraft Java Edition
 
 ---
 
+> **Unofficial community mod.** IceMC Practice Panel is an independent project, not an official IceMC product. It is not affiliated with, endorsed by, or supported by IceMC, Mojang, or Microsoft. Server and community links are provided for reference only.
+
 ## ✦ One panel. Six workspaces.
 
 **IceMC Practice Panel**, also known as **IridiumX Panel**, brings everyday staff actions into a native, client-side Fabric interface. Moderate players, manage tiers, use quick tools, and review player chat or Polar(LC) alerts without repeatedly typing commands.
 
-A dark purple workspace, animated outer glow, smooth transitions, and automatic GUI scaling keep everything within reach. Built for the **IceMC** staff workflow by **_0xi1**.
+A dark purple workspace, animated outer glow, smooth transitions, and automatic GUI scaling keep everything within reach. Created independently by **_0xi1** for use with **IceMC** staff workflows.
 
 <div align="center">
 
@@ -162,4 +165,5 @@ Permission checks against Minecraft permission sets also confirm that level 0 is
 Made by **_0xi1** · **IceMC Practice Panel v1.3.1**
 
 </div>
+
 
