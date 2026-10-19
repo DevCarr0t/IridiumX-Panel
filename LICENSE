@@ -1,0 +1,81 @@
+IceMC Practice Panel — Custom Use-Only License
+Version 1.0, 20 October 2026
+
+Copyright (c) 2026 _0xi1. All rights reserved, except as expressly granted below.
+
+1. Scope and ownership
+
+This license applies to IceMC Practice Panel (also called IridiumX Panel), its
+original source code, compiled mod releases, and accompanying original materials
+to the extent that _0xi1 owns or has authority to license them (the "Software").
+The Software is licensed, not sold. No ownership rights are transferred.
+Third-party components, dependencies, names, trademarks, and materials remain
+subject to their respective owners' rights and licenses. This license does not
+override those licenses or claim ownership of third-party material.
+
+2. Permission to download and use
+
+You may download unmodified releases published by the project owner and install
+and run them, free of charge, on Minecraft clients you use, including when acting
+as server staff. You may keep copies reasonably necessary for installation and
+your own backup. Normal changes to user settings through the Software or its
+configuration files are permitted; altering code or bundled assets is not.
+
+You may share a link to the project owner's repository or release page so others
+can obtain their own authorized copy. Sharing a link is not redistribution of
+the Software.
+
+3. Restrictions
+
+Unless you first obtain the project owner's written permission, you may not:
+
+- Modify, adapt, translate, patch, or create derivative versions of the Software,
+  including changes to its code, bundled assets, branding, or compiled JARs.
+- Copy or reuse the Software's code or bundled assets in another project.
+- Redistribute, re-upload, mirror, sublicense, sell, rent, or otherwise supply
+  copies of the Software, whether unchanged or modified, free or paid.
+- Include the Software in a modpack, software bundle, or third-party installer
+  that distributes a copy of it.
+- Remove or alter copyright, license, or authorship notices.
+- Present the Software, its code, or its bundled assets as your own original
+  work, or imply that you are its original author or an authorized distributor.
+
+These restrictions apply to private modifications as well as public releases,
+subject to section 4 and any rights that applicable law does not allow a license
+to restrict.
+
+4. Public hosting and mandatory rights
+
+Where the project owner hosts material publicly on GitHub, this license does
+not remove rights independently granted under GitHub's applicable Terms of
+Service, including viewing and forking within that service. No additional right
+to modify, distribute, or reuse the Software is granted by this license merely
+because the repository or its source code can be viewed publicly.
+
+Nothing in this license limits rights that cannot lawfully be excluded or
+restricted, or supersedes applicable third-party licenses.
+
+5. Termination
+
+The permissions granted by this license terminate if you violate its terms.
+On termination, stop using the Software and delete copies held under this
+license, except where retention is required by law or independently permitted
+under section 4. You may request separate written permission from the project
+owner through the repository's contact channels.
+
+6. No warranty; limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+TO THE SAME EXTENT, THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS, DAMAGES, OR
+OTHER LIABILITY ARISING FROM OR CONNECTED WITH THE SOFTWARE OR ITS USE.
+
+7. Unofficial project
+
+This is an independent, unofficial community project. This license grants no
+endorsement, sponsorship, or trademark rights from IceMC, Mojang, Microsoft,
+Fabric, or any other third party.
+
+This is a custom, restrictive software license, not an open-source license.
+Permissions not expressly granted are reserved by their respective owners.
