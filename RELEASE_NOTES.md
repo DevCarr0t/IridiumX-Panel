@@ -1,20 +1,21 @@
-## 💜 What's new in v1.3.2
+## 💜 What's new in v1.3.3
 
-- Renamed the mod to **IridiumX Client** throughout the interface, window title, mod metadata, README, and LICENSE.
-- New build filenames: **`iridiumx-client-{mod_ver}+{mc_ver}.jar`**.
-- Added the purple crystal logo as the Minecraft window icon.
-- Updated the window title to **`Minecraft* {version} - IridiumX Client`**.
-- Added **Discord Rich Presence from game launch**, including the main menu:
+- Fixed Discord Rich Presence across **all five supported Minecraft versions**, including **26.2 / Java 25**.
+- Corrected the Windows Discord named-pipe path.
+- Fixed activity publishing stalls by using stream-based writes and reading only available pipe data.
+- Kept automatic refresh, reconnection, and clearer connection diagnostics.
+- Rich Presence starts with Minecraft and displays:
   - **IridiumX Client**
-  - **User  : {user_ign}**
-  - **Version {mc_ver} • {mod_ver}**
-- Fixed Windows Discord IPC reads blocking activity updates; added incremental frame parsing, reconnection, refreshes, and acknowledgement logs.
-- Retained **OP-only access** for administration and log capture. Cosmetic Rich Presence can display without OP.
-- Included the **Custom Use-Only License** in every JAR: free to use; modification and redistribution require written permission, subject to the full license.
+  - **User : {user_ign}**
+  - **Version {mc_ver} • 1.3.3**
+- Retained the purple logo, custom Minecraft window title, OP-only moderation, and Custom Use-Only License.
 
-**Minecraft:** 1.21.11 · 26.1 · 26.1.1 · 26.1.2 · 26.2  
-**Requires:** Fabric Loader 0.19.5+ and matching Fabric API. Windows desktop Discord is needed for Rich Presence.
+**Supported Minecraft:** 1.21.11 · 26.1 · 26.1.1 · 26.1.2 · 26.2
 
-Install **one matching JAR** and remove the previous panel/client JAR before restarting Minecraft. Existing settings and history paths are preserved.
+**Requires:** Fabric Loader 0.19.5+ and Fabric API matching your Minecraft version. Rich Presence requires Windows desktop Discord.
+
+Download **one matching JAR**, remove the old IridiumX JAR, and restart Minecraft. Settings and log paths are preserved.
+
+Rich Presence confirmed working on all supported versions by the user.
 
 Unofficial community project by **_0xi1**.

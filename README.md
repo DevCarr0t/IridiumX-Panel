@@ -8,7 +8,7 @@
 
 An **unofficial**, **OP-only** moderation workspace for **Minecraft Java Edition**.
 
-![Mod version](https://img.shields.io/badge/MOD-v1.3.2-A970FF?style=for-the-badge)
+![Mod version](https://img.shields.io/badge/MOD-v1.3.3-A970FF?style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/MINECRAFT-1.21.11%20%E2%86%92%2026.2-7C3AED?style=for-the-badge)
 ![Fabric](https://img.shields.io/badge/LOADER-FABRIC-DBB9FF?style=for-the-badge)
 ![Client side](https://img.shields.io/badge/ENVIRONMENT-CLIENT_SIDE-272033?style=for-the-badge)
@@ -42,17 +42,13 @@ A dark purple workspace, animated outer glow, smooth transitions, and automatic 
 
 </div>
 
-## 💜 What's new in v1.3.2
+## 💜 What's new in v1.3.3
 
-- **New name: IridiumX Client.** Updated in-game branding, window title, mod metadata, README, and license notices.
-- **New JAR naming:** `iridiumx-client-{mod_ver}+{mc_ver}.jar`.
-- **Custom window branding:** purple crystal icon and `Minecraft* {version} - IridiumX Client` title.
-- **Discord Rich Presence:** starts when Minecraft launches, including on the main menu; displays `IridiumX Client`, `User  : {IGN}`, and `Version {Minecraft} • {mod}` with the purple logo.
-- **Windows Discord IPC fix:** nonblocking reads, incremental frame parsing, reconnection, and activity acknowledgement logging.
-- **OP-only administration retained:** the panel and log capture require server-reported OP; cosmetic Rich Presence does not.
-- **Custom Use-Only License included** in every JAR: free use, no modification or redistribution without written permission, subject to the full license terms.
-
-> This is a client-side access gate. The server still enforces command permissions; the mod does not grant OP or replace server-side authorization.
+- **Discord Rich Presence fixed across all five supported versions**, including Minecraft 26.2 on Java 25.
+- **Correct Windows IPC path** and nonblocking pipe reads prevent activity updates from stalling.
+- **Stream-based writes, automatic refresh and reconnection**, with clearer connection diagnostics.
+- Displays **IridiumX Client**, **User : {IGN}**, and **Version {Minecraft} • {mod}** from game launch.
+- Retains the purple logo, custom window title, OP-only moderation, and Custom Use-Only License.
 
 ## ⚡ Built for the way you moderate
 
@@ -98,11 +94,11 @@ GitHub's own terms may independently permit viewing and forking public repositor
 
 | Minecraft Java | Mod version | Java runtime | Fabric API used for build |
 | :--- | :--- | :--- | :--- |
-| **1.21.11** | `1.3.2+1.21.11` | Java **21+** | `0.141.6+1.21.11` |
-| **26.1** | `1.3.2+26.1` | Java **25+** | `0.145.1+26.1` |
-| **26.1.1** | `1.3.2+26.1.1` | Java **25+** | `0.145.4+26.1.1` |
-| **26.1.2** | `1.3.2+26.1.2` | Java **25+** | `0.155.3+26.1.2` |
-| **26.2** | `1.3.2+26.2` | Java **25+** | `0.161.0+26.2` |
+| **1.21.11** | `1.3.3+1.21.11` | Java **21+** | `0.141.6+1.21.11` |
+| **26.1** | `1.3.3+26.1` | Java **25+** | `0.145.1+26.1` |
+| **26.1.1** | `1.3.3+26.1.1` | Java **25+** | `0.145.4+26.1.1` |
+| **26.1.2** | `1.3.3+26.1.2` | Java **25+** | `0.155.3+26.1.2` |
+| **26.2** | `1.3.3+26.2` | Java **25+** | `0.161.0+26.2` |
 
 **Required:** Fabric Loader **0.19.5+** and **Fabric API for your exact Minecraft version**. No additional client mods are required. Snapshots, prereleases, and versions earlier than 1.21.11 are outside this release's support range.
 
@@ -110,7 +106,7 @@ GitHub's own terms may independently permit viewing and forking public repositor
 
 1. Install **Fabric Loader 0.19.5 or newer** for a supported Minecraft version.
 2. Install **Fabric API** for that same version.
-3. Download the matching **IridiumX Client v1.3.2 JAR** from this repository's releases.
+3. Download the matching **IridiumX Client v1.3.3 JAR** from this repository's releases.
 4. Put both JARs in your Minecraft instance's `mods` folder. Keep only **one** version of the panel installed.
 5. Launch Minecraft, join **`icemc.pro`** with an **OP-enabled staff account**, and press **`Right Shift`**.
 
@@ -121,7 +117,7 @@ Example: Minecraft 1.21.11
 
 mods/
 ├── fabric-api-0.141.6+1.21.11.jar
-└── iridiumx-client-1.3.2+1.21.11.jar
+└── iridiumx-client-1.3.3+1.21.11.jar
 ```
 
 The opening key can be changed in Minecraft's **Controls → Key Binds** menu.
@@ -180,7 +176,7 @@ Permission checks against Minecraft permission sets also confirm that level 0 is
 **Join the server** · `icemc.pro`  
 **Meet the community** · [discord.gg/avYXudUaG](https://discord.gg/avYXudUaG)
 
-Made by **_0xi1** · **IridiumX Client v1.3.2**
+Made by **_0xi1** · **IridiumX Client v1.3.3**
 
 </div>
 
